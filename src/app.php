@@ -24,7 +24,7 @@ class SoapHttpService
         $ch = curl_init();
         curl_setopt($ch, CURLOPT_URL, $Url);
         curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
-        curl_setopt($ch, CURLOPT_FOLLOWLOCATION, TRUE);
+        //curl_setopt($ch, CURLOPT_FOLLOWLOCATION, TRUE);
         if (in_array(strtoupper($Method),array("GET", "POST", "PUT", "DELETE"))) {
             curl_setopt($ch, CURLOPT_CUSTOMREQUEST, strtoupper($Method));
         }
