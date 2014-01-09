@@ -20,8 +20,8 @@ http://localhost:8888/index.php/wsdl
 
 Browse SoapClient examples:
 
-http://localhost:8888/index.php/test/get
-http://localhost:8888/index.php/test/post
+[http://localhost:8888/index.php/test/get](http://localhost:8888/index.php/test/get)
+[http://localhost:8888/index.php/test/post](http://localhost:8888/index.php/test/post)
 
 Use Curl:
 
