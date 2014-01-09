@@ -29,11 +29,7 @@ Example Request Body:
       <Headers xsi:type="ns1:ArrayOfSTSHeader">
         <item xsi:type="ns1:STSHeader">
           <Key xsi:type="xsd:string">Content-Type</Key>
-          <Value xsi:type="xsd:string">application/xml</Value>
-        </item>
-        <item xsi:type="ns1:STSHeader">
-          <Key xsi:type="xsd:string">Referer</Key>
-          <Value xsi:type="xsd:string">chrigu</Value>
+          <Value xsi:type="xsd:string">text/html</Value>
         </item>
         <item xsi:type="ns1:STSHeader">
           <Key xsi:type="xsd:string">User-Agent:</Key>
