@@ -5,7 +5,7 @@ git clone <repository>
 curl -sS https://getcomposer.org/installer | php
 ./composer.phar install
 ```
-Warning: set write permissions on the `cache` folder.
+Warning: the `cache` folder needs to be writeable for saving the WSDL file.
 
 ## Run Soap service
 
