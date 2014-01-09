@@ -20,7 +20,7 @@ http://localhost:8888 **/index.php/wsdl**
 Example Request Body
 ```xml
 <?xml version="1.0" encoding="utf-8"?>
-  <soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+<soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
   <soap:Body>
     <SoapHttpRequest xmlns="http://localhost:8888/index.php">
       <Url>http://fahrplan.sbb.ch/bin/query.exe/dn</Url>
