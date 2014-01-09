@@ -15,7 +15,7 @@ php -S 127.0.0.1:8888 -t web/
 
 ## Access WSDL
 
-http://localhost:8888/index.php/wsdl
+http://localhost:8888 **/index.php/wsdl**
 
 ## Testing
 
