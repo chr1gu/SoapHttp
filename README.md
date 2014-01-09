@@ -5,6 +5,7 @@ git clone <repository>
 curl -sS https://getcomposer.org/installer | php
 ./composer.phar install
 ```
+Warning: set write permissions on the `cache` folder.
 
 ## Run Soap service
 
